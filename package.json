@@ -1,0 +1,13 @@
+{
+  "name": "unofficial-discordbots.co",
+  "version": "1.0.0",
+  "description": "The unofficial discordbots.co API",
+  "main": "index.js",
+  "repository": "https://github.com/idevion/discordbots.co-wrapper",
+  "author": "idevion <idevion@protonmail.ch>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
