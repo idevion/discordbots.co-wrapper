@@ -85,7 +85,7 @@ class DiscordBotsCo extends EventEmitter {
   request(endpoint, method = "GET", body) {
     return fetch(`https://api.discordbots.co${endpoint}`, {
       method,
-      body: method === "GET" && body ? JSON.stringify(body) : undefined,
+      body: method === "POST" && body ? JSON.stringify(body) : undefined,
       headers: {
         authorization: this.apiKey,
       },
